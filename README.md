@@ -15,7 +15,7 @@ This repository contains unit testing exercises implemented in C# using NUnit.
 - Gauss Trick
 - Max Number
 
-  #Project Structure
+- ## Project Structure
 - TestApp - Production logic
 - TestApp.UnitTests
 
