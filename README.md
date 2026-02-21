@@ -1,26 +1,26 @@
-# C# Unit Testing - Practice (NUnit)
+# C# Unit Testing with NUnit
 
-This repository contains unit testing exercises implemented in C# using NUnit.
+This repository contains a small C# solution demonstrating unit testing practices using NUnit.
 
-## Tehchnologies
-- C#
-- .NET
-- NUnit
-- AAA (Arrange-Act-Assert)pattern
+## Structure
+- TestApp – production logic
+- TestApp.UnitTests – unit tests
+- ExerciseUnitTesting.sln – solution file
 
-- ## Covered Scenarios
-- Adjacent Equal Numbers
-- List Analayzer
-- List Manipulation
-- Gauss Trick
-- Max Number
+## Testing Approach
+- Arrange / Act / Assert pattern
+- Positive and negative scenarios
+- Edge case validation (empty input, null values, single element)
+- Parameterized tests with [TestCase] and [TestCaseSource]
+- Exception testing using Assert.Throws
 
-- ## Project Structure
-- TestApp - Production logic
-- TestApp.UnitTests
+## Covered Components
+- Password validation
+- Email validation
+- List/array processing algorithms
+- Majority and duplicate detection logic
 
-- The goal of this project is to demonstrate understanding of:
-- Writing unit test
-- Covering edge cases
-- Validating business logic
-- Structuring test projects properly
+## How to Run
+1. Open the solution in Visual Studio
+2. Build the project
+3. Run tests from Test Explorer
